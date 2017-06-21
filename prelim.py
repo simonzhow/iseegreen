@@ -11,7 +11,7 @@ print subprocess.check_output(['cd', sys.argv[1]])
 print subprocess.check_output(['git','init'])
 print subprocess.check_output(['echo', '1', '>>', '123454321.txt'])
 print subprocess.check_output(['git','add', '.'])
-print subprocess.check_output(['git','commit', '-m', "iseegreen"])
+print subprocess.check_output(['git','commit', '-m', '"iseegreen"'])
 print subprocess.check_output(['git','push'])
 
 
